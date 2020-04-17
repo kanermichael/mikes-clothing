@@ -10,8 +10,6 @@ import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up
 import { auth } from './firebase/firebase.utils';
 import Header from './components/header/header.component'
 
-import { auth } from './firebase/firebase.utils'
-
 function App() {
 
   const [currentUser, setCurrentUser] = useState(null);
